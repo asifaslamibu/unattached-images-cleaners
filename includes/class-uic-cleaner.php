@@ -11,8 +11,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 class UIC_Cleaner {
 
-	const PER_PAGE       = 40;
-	const BATCH_LIMIT    = 100; // Max deletes per submit – plenty fast, but protects against runaway.
+	const PER_PAGE       = 300;
+	const BATCH_LIMIT    = 300; // Max deletes per submit – plenty fast, but protects against runaway.
 	const PAGE_SLUG      = 'unattached-images-cleaner';
 	const ALLOWED_FORMATS = array( 'jpg', 'png', 'gif', 'webp', 'bmp' );
 
